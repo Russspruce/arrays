@@ -12,11 +12,11 @@ $(document).ready(function(){
 
       sentenceBefore.forEach(function(section){
       if (section.length >= 3){
-      $("#result").text(section);
+    sections.push(section);
       }
     });
       sections.reverse();
-        $("#result").text(section);
+        $("#result").text(sections);
         event.preventDefault();
 
     });
